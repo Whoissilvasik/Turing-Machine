@@ -1,0 +1,75 @@
+﻿  Touring machine C++.cpp
+C:\Users\danuk\Desktop\Touring machine C++\Touring machine C++\Touring machine C++.cpp(116,17): error C2676: бинарный "==": "std::string" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\set(426,17):
+  может быть "bool std::operator ==(const std::multiset<_Kty,_Pr,_Alloc> &,const std::multiset<_Kty,_Pr,_Alloc> &)"
+  	C:\Users\danuk\Desktop\Touring machine C++\Touring machine C++\Touring machine C++.cpp(116,9):
+  	'bool std::operator ==(const std::multiset<_Kty,_Pr,_Alloc> &,const std::multiset<_Kty,_Pr,_Alloc> &)': не удалось вывести аргумент шаблон для 'const std::multiset<_Kty,_Pr,_Alloc> &' из 'std::string'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\set(209,17):
+  или       "bool std::operator ==(const std::set<_Kty,_Pr,_Alloc> &,const std::set<_Kty,_Pr,_Alloc> &)"
+  	C:\Users\danuk\Desktop\Touring machine C++\Touring machine C++\Touring machine C++.cpp(116,9):
+  	'bool std::operator ==(const std::set<_Kty,_Pr,_Alloc> &,const std::set<_Kty,_Pr,_Alloc> &)': не удалось вывести аргумент шаблон для 'const std::set<_Kty,_Pr,_Alloc> &' из 'std::string'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\vector(2229,30):
+  или       "bool std::operator ==(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)"
+  	C:\Users\danuk\Desktop\Touring machine C++\Touring machine C++\Touring machine C++.cpp(116,9):
+  	'bool std::operator ==(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)': не удалось вывести аргумент шаблон для 'const std::vector<_Ty,_Alloc> &' из 'std::string'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\memory(3555,17):
+  или       "bool std::operator ==(std::nullptr_t,const std::unique_ptr<_Ty,_Dx> &) noexcept"
+  	C:\Users\danuk\Desktop\Touring machine C++\Touring machine C++\Touring machine C++.cpp(116,9):
+  	'bool std::operator ==(std::nullptr_t,const std::unique_ptr<_Ty,_Dx> &) noexcept': не удалось вывести аргумент шаблон для 'const std::unique_ptr<_Ty,_Dx> &' из 'char'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\memory(3549,30):
+  или       "bool std::operator ==(const std::unique_ptr<_Ty,_Dx> &,std::nullptr_t) noexcept"
+  	C:\Users\danuk\Desktop\Touring machine C++\Touring machine C++\Touring machine C++.cpp(116,9):
+  	'bool std::operator ==(const std::unique_ptr<_Ty,_Dx> &,std::nullptr_t) noexcept': не удалось вывести аргумент шаблон для 'const std::unique_ptr<_Ty,_Dx> &' из 'std::string'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\memory(3501,30):
+  или       "bool std::operator ==(const std::unique_ptr<_Ty,_Dx> &,const std::unique_ptr<_Ty2,_Dx2> &)"
+  	C:\Users\danuk\Desktop\Touring machine C++\Touring machine C++\Touring machine C++.cpp(116,9):
+  	'bool std::operator ==(const std::unique_ptr<_Ty,_Dx> &,const std::unique_ptr<_Ty2,_Dx2> &)': не удалось вывести аргумент шаблон для 'const std::unique_ptr<_Ty,_Dx> &' из 'std::string'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\memory(1922,17):
+  или       "bool std::operator ==(std::nullptr_t,const std::shared_ptr<_Ty> &) noexcept"
+  	C:\Users\danuk\Desktop\Touring machine C++\Touring machine C++\Touring machine C++.cpp(116,9):
+  	'bool std::operator ==(std::nullptr_t,const std::shared_ptr<_Ty> &) noexcept': не удалось вывести аргумент шаблон для 'const std::shared_ptr<_Ty> &' из 'char'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\memory(1911,17):
+  или       "bool std::operator ==(const std::shared_ptr<_Ty> &,std::nullptr_t) noexcept"
+  	C:\Users\danuk\Desktop\Touring machine C++\Touring machine C++\Touring machine C++.cpp(116,9):
+  	'bool std::operator ==(const std::shared_ptr<_Ty> &,std::nullptr_t) noexcept': не удалось вывести аргумент шаблон для 'const std::shared_ptr<_Ty> &' из 'std::string'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\memory(1874,17):
+  или       "bool std::operator ==(const std::shared_ptr<_Ty> &,const std::shared_ptr<_Ty0> &) noexcept"
+  	C:\Users\danuk\Desktop\Touring machine C++\Touring machine C++\Touring machine C++.cpp(116,9):
+  	'bool std::operator ==(const std::shared_ptr<_Ty> &,const std::shared_ptr<_Ty0> &) noexcept': не удалось вывести аргумент шаблон для 'const std::shared_ptr<_Ty> &' из 'std::string'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\xstring(5042,17):
+  или       "bool std::operator ==(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)"
+  	C:\Users\danuk\Desktop\Touring machine C++\Touring machine C++\Touring machine C++.cpp(116,9):
+  	'bool std::operator ==(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)': не удалось вывести аргумент шаблон для 'const _Elem *const ' из 'std::string'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\xstring(5023,30):
+  или       "bool std::operator ==(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )"
+  	C:\Users\danuk\Desktop\Touring machine C++\Touring machine C++\Touring machine C++.cpp(116,9):
+  	'bool std::operator ==(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )': не удалось вывести аргумент шаблон для 'const _Elem *const ' из 'char'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\xstring(5017,30):
+  или       "bool std::operator ==(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept"
+  	C:\Users\danuk\Desktop\Touring machine C++\Touring machine C++\Touring machine C++.cpp(116,9):
+  	'bool std::operator ==(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept': не удалось вывести аргумент шаблон для 'const std::basic_string<_Elem,_Traits,_Alloc> &' из 'char'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\xmemory(1038,30):
+  или       "bool std::operator ==(const std::allocator<_Ty> &,const std::allocator<_Other> &) noexcept"
+  	C:\Users\danuk\Desktop\Touring machine C++\Touring machine C++\Touring machine C++.cpp(116,9):
+  	'bool std::operator ==(const std::allocator<_Ty> &,const std::allocator<_Other> &) noexcept': не удалось вывести аргумент шаблон для 'const std::allocator<_Ty> &' из 'std::string'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\iterator(488,17):
+  или       "bool std::operator ==(const std::istreambuf_iterator<_Elem,_Traits> &,const std::istreambuf_iterator<_Elem,_Traits> &)"
+  	C:\Users\danuk\Desktop\Touring machine C++\Touring machine C++\Touring machine C++.cpp(116,9):
+  	'bool std::operator ==(const std::istreambuf_iterator<_Elem,_Traits> &,const std::istreambuf_iterator<_Elem,_Traits> &)': не удалось вывести аргумент шаблон для 'const std::istreambuf_iterator<_Elem,_Traits> &' из 'std::string'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\iterator(306,17):
+  или       "bool std::operator ==(const std::istream_iterator<_Ty,_Elem,_Traits,_Diff> &,const std::istream_iterator<_Ty,_Elem,_Traits,_Diff> &) noexcept"
+  	C:\Users\danuk\Desktop\Touring machine C++\Touring machine C++\Touring machine C++.cpp(116,9):
+  	'bool std::operator ==(const std::istream_iterator<_Ty,_Elem,_Traits,_Diff> &,const std::istream_iterator<_Ty,_Elem,_Traits,_Diff> &) noexcept': не удалось вывести аргумент шаблон для 'const std::istream_iterator<_Ty,_Elem,_Traits,_Diff> &' из 'std::string'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\xutility(4251,5):
+  или       "bool std::operator ==(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)"
+  	C:\Users\danuk\Desktop\Touring machine C++\Touring machine C++\Touring machine C++.cpp(116,9):
+  	'bool std::operator ==(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)': не удалось вывести аргумент шаблон для 'const std::move_iterator<_Iter> &' из 'std::string'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\xutility(1676,5):
+  или       "bool std::operator ==(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)"
+  	C:\Users\danuk\Desktop\Touring machine C++\Touring machine C++\Touring machine C++.cpp(116,9):
+  	'bool std::operator ==(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)': не удалось вывести аргумент шаблон для 'const std::reverse_iterator<_BidIt> &' из 'std::string'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\include\utility(490,27):
+  или       "bool std::operator ==(const std::pair<_Ty1,_Ty2> &,const std::pair<_Uty1,_Uty2> &)"
+  	C:\Users\danuk\Desktop\Touring machine C++\Touring machine C++\Touring machine C++.cpp(116,9):
+  	'bool std::operator ==(const std::pair<_Ty1,_Ty2> &,const std::pair<_Uty1,_Uty2> &)': не удалось вывести аргумент шаблон для 'const std::pair<_Ty1,_Ty2> &' из 'std::string'
+  
